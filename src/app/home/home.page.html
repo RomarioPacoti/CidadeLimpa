@@ -1,20 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <img src="assets\logoPacoti.JPEG" >
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content padding>
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Cidade Limpa</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+ 
+    <div class="ion-text-wrap">
+      <ion-button  class="botao" size="large" (click)="abrirPagina('cadastro')">Avise sobre um ponto de coleta</ion-button>
+      <ion-button  class="botao" size="large" (click)="abrirPagina('solicitacoes')">Solicitações</ion-button>
+    </div>
+    <div>
+      <ion-button href="https://www.pacoti.ce.gov.br/" class="botao" size="large">Notícias</ion-button>
+      <ion-button class="botao" size="large" (click)="abrirPagina('canais-de-atendimento')">Canais de Atendimento</ion-button>    
+    </div>
+
+    <ion-footer>
+      <ion-toolbar>
+        <div id ="icon">
+        <a href="https://www.instagram.com/prefeituradepacoti/"><ion-icon name="logo-instagram" size="large"></ion-icon> </a>
+        <a href="https://www.facebook.com/PacotiOficial/"><ion-icon name="logo-facebook"  size="large"></ion-icon> </a>
+        </div>
+      </ion-toolbar>
+    </ion-footer>
+   
+  
+ 
 </ion-content>

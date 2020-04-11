@@ -29,3 +29,34 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+img{
+  width: 500px;
+  height: 200px;
+}
+ion-button{
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  width: 180px;
+  height: 160px;
+  padding: 2px;
+  white-space: normal;
+  border-radius: 10px;  
+}
+
+ion-title{
+  margin-bottom: 20px;
+  font-family: 'Pacifico';
+  text-align: center;
+  
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+#icon{
+  margin-left: 150px;
+  align-items: center;
+  
+}

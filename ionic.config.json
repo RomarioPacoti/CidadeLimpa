@@ -1,5 +1,7 @@
 {
   "name": "CidadeLimpa",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
